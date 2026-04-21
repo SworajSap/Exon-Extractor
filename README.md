@@ -13,5 +13,6 @@ Python utility to search NCBI for NG records and extract exon-only-annotated Gen
 - ## Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/SworajSap/Exon-Extractor.git](https://github.com/SworajSap/Exon-Extractor.git)
+   git clone https://github.com/SworajSap/Exon-Extractor.git
+   
    cd Exon-Extractor
