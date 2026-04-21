@@ -1,5 +1,5 @@
 # Exon-Extractor
-Python utility to search NCBI for NG records and extract exon-only-annotated GenBank files.
+Python utility to search NCBI for NG records(usually prioritized for genes associated with specific clinical phenotypes or those used in diagnostic testing) and extract exon-only-annotated GenBank files.
 
 ## Features
 - **Interactive CLI:** Prompts for user email and gene symbol.
@@ -9,6 +9,9 @@ Python utility to search NCBI for NG records and extract exon-only-annotated Gen
 ## Prerequisites
 - Python 3.x
 - Biopython
+
+## Limitation
+- Extraction may not be possible if your gene of interest has not yet assigned a RefSeqGene (NG_) record.
 
 - ## Installation
 1. Clone the repository:
